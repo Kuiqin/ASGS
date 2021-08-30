@@ -1,0 +1,12 @@
+#' @title rainbow trout dataset
+#' @docType data
+#' @name trout
+#' @description Dataset used in this study is subset from rainbow trout. In our sample dataset it has one response for 100 lines genotyped for 500 markers.
+#' @details This dataset come from a genome Wide association study for resistance to Piscirickettsia salmonis in rainbow trout, with 2047 individual genotyped and 26068 markers that can be used for GS. We selected the endweight trait as the response.
+#' @examples library(ASGS);rm (list=ls ());data(trout);X=trout[,2:101];Y=as.data.frame(trout[,1]);
+#' @references Agustin Barria, Rodrigo Marín Nahuelpi, Pablo Cáceres, María E López, Liane N Bassini, Jean P Lhorente, José M Yáñez, Single Step Genome Wide Association Study for Resistance to Piscirickettsia salmonis in Rainbow Trout (Oncorhynchus mykiss), G3 Genes|Genomes|Genetics, Volume 9, Issue 11, 1 November 2019, Pages 3833 to 3841, https://doi.org/10.1534/g3.119.400204
+#' @format A data frame with 100 rows as genotypes with 501 columns (First column contains information of phenotypic trait under study and the rest columns represent information of markers).
+#' @usage data(trout)
+NULL
+
+

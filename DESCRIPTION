@@ -1,0 +1,18 @@
+Package: ASGS
+Type: Package
+Title: Algorithm Sets for Genomic Selection
+Version: 1.0.4
+Authors@R: person('Kuiqin','Wang',role=c('aut','cre'),email='wkq@stu.ouc.edu.cn') 
+Maintainer: Kuiqin Wang <wkq@stu.ouc.edu.cn>
+Description: Sets of algorithms that can be used for GS (Genomic Selection),including machine learning models and tradition models like Bayes.
+              For machine learning methods, ANN (Artificial Neural Network), RKHS (Reproducing kernel Hilbert space), RF(Random Forest), 
+              GBM(Generalized Boosted Regression Models), SVM(support vector machine) is included. For traditional methods, BayesA, BayesB, 
+              BayesC, BayesLasso, BayesRR (Bayesian Ridge Regression),GBLUP(Genomic Best Linear Unbiased Prediction), 
+              rrBLUP(ridge regression best linear unbiased prediction)is included. Simple validation is implemented to get the prediction accuracy,
+              In order to get a better performance for machine learning methods, an auto hyperparameter adjusting is implemented.
+License: GPL-3
+Encoding: UTF-8
+Imports: brnn, kernlab, BGLR, randomForest, gbm, rrBLUP
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: R (>= 3.5.0)
